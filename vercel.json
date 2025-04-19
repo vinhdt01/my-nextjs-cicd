@@ -1,0 +1,19 @@
+{
+    "rewrites": [
+      {
+        "source": "/site/:path*",
+        "destination": "/:path*"
+      }
+    ],
+    "headers": [
+      {
+        "source": "/site/(.*)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      }
+    ]
+  }

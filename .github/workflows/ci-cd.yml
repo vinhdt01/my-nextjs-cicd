@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run tests
-        run: npm test || true # Skip if no tests
+        run: npm test
       - name: Build Next.js app
         run: npm run build
 

@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  basePath: "/site",
+  basePath: "",
   images: {
     minimumCacheTTL: 31536000, // 1 year
   },

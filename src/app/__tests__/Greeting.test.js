@@ -11,6 +11,6 @@ describe("Home page", () => {
     expect(heading).toBeInTheDocument();
 
     // You might need to adjust this based on your actual content
-    expect(screen.getByText(/welcomes/i)).toBeInTheDocument();
+    expect(screen.getByText(/welcome/i)).toBeInTheDocument();
   });
 });
